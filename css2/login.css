@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+}
+
+.login-container {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.login-box {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.login-img {
+  margin-bottom: 20px;
+}
+
+.login-img img {
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+.login-form {
+  margin-top: 20px;
+}
+
+.input-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  font-size: 16px;
+  color: #555;
+  background: transparent;
+  transition: border-bottom-color 0.3s;
+}
+
+input:focus {
+  border-bottom-color: #4e54c8;
+}
+
+label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #888;
+  font-size: 16px;
+  pointer-events: none;
+  transition: transform 0.3s, font-size 0.3s;
+}
+
+input:focus + label,
+input:not(:placeholder-shown) + label {
+  transform: translateY(-75%) scale(0.8);
+  font-size: 12px;
+}
+
+button {
+  background-color: #4e54c8;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #344fa1;
+}
+
+.bottom-text {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signup-link,
+.forgot-password {
+  font-size: 14px;
+  color: #666;
+}
+
+.signup-link a,
+.forgot-password a {
+  color: #4e54c8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.forgot-password {
+  margin-left: auto;
+}

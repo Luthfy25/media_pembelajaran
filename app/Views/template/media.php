@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Pembelajaran</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css2/home.css" />
+    <link rel="stylesheet" href="css2/owl.carousel.min.css" />
+    <link rel="icon" href="img/graduation-cap-line.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <div class="hero">
+    <nav>
+      <h2 class="logo">
+        <a href="img/graduation-cap-line.svg"
+          ><img src="..." alt="" class="gambar"
+        /></a>
+      </h2>
+      <ul>
+        <li><a href="home.html" class="active">Menu</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="galery.html">Galery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button type="button">
+        <a href="login.html" class="btnA"> Admin</a>
+      </button>
+    </nav>
+  </div>
+  <body>
+    <!-- Carousel -->
+    <section id="slider" class="pt-5">
+      <div class="container">
+        <h1 class="text-center"><b></b></h1>
+        <div class="slider">
+          <div class="owl-carousel">
+            <div class="slider-card">
+              <div
+                class="d-flex justify-content-center align-items-center mb-4"
+              >
+                <img src="img/1.png" alt="" />
+              </div>
+              <h5 class="mb-0 text-center"><b>Media Pembelajaran</b></h5>
+              <p class="text-center p-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+                temporibus quidem magni qui doloribus quasi natus inventore nisi
+                velit minima.
+              </p>
+            </div>
+            <div class="slider-card">
+              <div
+                class="d-flex justify-content-center align-items-center mb-4"
+              >
+                <img src="img/2.jpg" alt="" />
+              </div>
+              <h5 class="mb-0 text-center"><b>Bahasa Inggris</b></h5>
+              <p class="text-center p-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+                temporibus quidem magni qui doloribus quasi natus inventore nisi
+                velit minima.
+              </p>
+            </div>
+            <div class="slider-card">
+              <div
+                class="d-flex justify-content-center align-items-center mb-4"
+              >
+                <img src="img/4.jpg" alt="" />
+              </div>
+              <h5 class="mb-0 text-center"><b>Matematika</b></h5>
+              <p class="text-center p-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+                temporibus quidem magni qui doloribus quasi natus inventore nisi
+                velit minima.
+              </p>
+            </div>
+            <div class="slider-card">
+              <div
+                class="d-flex justify-content-center align-items-center mb-4"
+              >
+                <img src="img/6.webp" alt="" />
+              </div>
+              <h5 class="mb-0 text-center"><b>Bahasa Indonesia</b></h5>
+              <p class="text-center p-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+                temporibus quidem magni qui doloribus quasi natus inventore nisi
+                velit minima.
+              </p>
+            </div>
+            <div class="slider-card">
+              <div
+                class="d-flex justify-content-center align-items-center mb-4"
+              >
+                <img src="img/7.webp" alt="" />
+              </div>
+              <h5 class="mb-0 text-center"><b>IPA</b></h5>
+              <p class="text-center p-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam
+                temporibus quidem magni qui doloribus quasi natus inventore nisi
+                velit minima.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of carousel -->
+
+    <!-- Card -->
+    <h2 class="title">Course Available</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="img/3.jpg" alt="" />
+        <div class="card-content">
+          <h3>Bahasa Inggris</h3>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/5.webp" alt="" />
+        <div class="card-content">
+          <h3>Matematika</h3>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/6.webp" alt="" />
+        <div class="card-content">
+          <h3>Bahasa Indonesia</h3>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/7.webp" alt="" />
+        <div class="card-content">
+          <h3>IPA</h3>
+        </div>
+      </div>
+    </div>
+    <!-- End of Card -->
+  </body>
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="footer-col">
+          <a href="img/logo mixue.png"
+            ><img src="img/logo mixue.png" alt="" class="gambar_footer"
+          /></a>
+          <ul>
+            <li><a href="#">Bahasa Inggris</a></li>
+            <li><a href="#">Matematika</a></li>
+            <li><a href="#">Bahasa Indonesia</a></li>
+            <li><a href="#">IPA</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4></h4>
+          <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4></h4>
+          <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-social"></h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Copyright -->
+  <div class="cr">
+    <ul class="ul-cr">
+      <li>© 2024 <a href="#">Luthfy Alamsyah</a></li>
+    </ul>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+  <script src="js2/owl.carousel.min.js"></script>
+  <script src="js2/script.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</html>

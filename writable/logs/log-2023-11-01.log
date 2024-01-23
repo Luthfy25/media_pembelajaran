@@ -1,0 +1,178 @@
+ERROR - 2023-11-01 11:38:00 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\latihanci4_luthfy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\Xampp\htdocs\latihanci4_luthfy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'db_latihan', 3306, '', 0)
+#1 D:\Xampp\htdocs\latihanci4_luthfy\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Xampp\htdocs\latihanci4_luthfy\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Xampp\htdocs\latihanci4_luthfy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Xampp\htdocs\latihanci4_luthfy\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\latihanci4_luthfy\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Xampp\htdocs\latihanci4_luthfy\app\Controllers\Mahasiswa.php(13): CodeIgniter\BaseModel->findAll()
+#7 D:\Xampp\htdocs\latihanci4_luthfy\system\CodeIgniter.php(919): App\Controllers\Mahasiswa->index()
+#8 D:\Xampp\htdocs\latihanci4_luthfy\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 D:\Xampp\htdocs\latihanci4_luthfy\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Xampp\htdocs\latihanci4_luthfy\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\latihanci4_luthfy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\Xampp\htdocs\latihanci4_luthfy\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Xampp\htdocs\latihanci4_luthfy\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Xampp\htdocs\latihanci4_luthfy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Xampp\htdocs\latihanci4_luthfy\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Xampp\htdocs\latihanci4_luthfy\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Xampp\htdocs\latihanci4_luthfy\app\Controllers\Mahasiswa.php(13): CodeIgniter\BaseModel->findAll()
+#6 D:\Xampp\htdocs\latihanci4_luthfy\system\CodeIgniter.php(919): App\Controllers\Mahasiswa->index()
+#7 D:\Xampp\htdocs\latihanci4_luthfy\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 D:\Xampp\htdocs\latihanci4_luthfy\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\latihanci4_luthfy\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-01 11:38:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-11-01 11:38:17 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\latihanci4_luthfy\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 D:\Xampp\htdocs\latihanci4_luthfy\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'db_latihan', 3306, '', 0)
+#1 D:\Xampp\htdocs\latihanci4_luthfy\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Xampp\htdocs\latihanci4_luthfy\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Xampp\htdocs\latihanci4_luthfy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Xampp\htdocs\latihanci4_luthfy\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Xampp\htdocs\latihanci4_luthfy\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\Xampp\htdocs\latihanci4_luthfy\app\Controllers\Mahasiswa.php(13): CodeIgniter\BaseModel->findAll()
+#7 D:\Xampp\htdocs\latihanci4_luthfy\system\CodeIgniter.php(919): App\Controllers\Mahasiswa->index()
+#8 D:\Xampp\htdocs\latihanci4_luthfy\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#9 D:\Xampp\htdocs\latihanci4_luthfy\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Xampp\htdocs\latihanci4_luthfy\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in D:\Xampp\htdocs\latihanci4_luthfy\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 D:\Xampp\htdocs\latihanci4_luthfy\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Xampp\htdocs\latihanci4_luthfy\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Xampp\htdocs\latihanci4_luthfy\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\Xampp\htdocs\latihanci4_luthfy\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\Xampp\htdocs\latihanci4_luthfy\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 D:\Xampp\htdocs\latihanci4_luthfy\app\Controllers\Mahasiswa.php(13): CodeIgniter\BaseModel->findAll()
+#6 D:\Xampp\htdocs\latihanci4_luthfy\system\CodeIgniter.php(919): App\Controllers\Mahasiswa->index()
+#7 D:\Xampp\htdocs\latihanci4_luthfy\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+#8 D:\Xampp\htdocs\latihanci4_luthfy\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Xampp\htdocs\latihanci4_luthfy\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-11-01 11:38:17 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbl_mahasiswa`', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Mahasiswa.php(13): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Mahasiswa->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 11:57:40 --> Trying to access array offset on value of type null
+in APPPATH\Views\mahasiswa\form_edit.php on line 11.
+ 1 APPPATH\Views\mahasiswa\form_edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\Xampp\\htdocs\\latihanci4_luthfy\\app\\Views\\mahasiswa\\form_edit.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Xampp\\htdocs\\latihanci4_luthfy\\app\\Views\\mahasiswa\\form_edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('mahasiswa/form_edit', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(44): view('mahasiswa/form_edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Mahasiswa->edit('mahasiswa')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 11:57:42 --> Trying to access array offset on value of type null
+in APPPATH\Views\mahasiswa\form_edit.php on line 11.
+ 1 APPPATH\Views\mahasiswa\form_edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\Xampp\\htdocs\\latihanci4_luthfy\\app\\Views\\mahasiswa\\form_edit.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Xampp\\htdocs\\latihanci4_luthfy\\app\\Views\\mahasiswa\\form_edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('mahasiswa/form_edit', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(44): view('mahasiswa/form_edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Mahasiswa->edit('mahasiswa')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-01 11:58:10 --> Trying to access array offset on value of type null
+in APPPATH\Views\mahasiswa\form_edit.php on line 11.
+ 1 APPPATH\Views\mahasiswa\form_edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'D:\\Xampp\\htdocs\\latihanci4_luthfy\\app\\Views\\mahasiswa\\form_edit.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('D:\\Xampp\\htdocs\\latihanci4_luthfy\\app\\Views\\mahasiswa\\form_edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('mahasiswa/form_edit', [], true)
+ 5 APPPATH\Controllers\Mahasiswa.php(44): view('mahasiswa/form_edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Mahasiswa->edit('mahasiswa')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Mahasiswa))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-01 12:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:27:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:51:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:51:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:52:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:52:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:56:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:57:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:58:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:58:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:58:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:58:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:59:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:59:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:59:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:59:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-01 12:59:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

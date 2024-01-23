@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="css2/login.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <div class="login-box">
+        <div class="login-img">
+          <img src="img/graduation-cap-line.svg" alt="User Avatar" />
+        </div>
+        <h2>Login</h2>
+        <form class="login-form">
+          <div class="input-group">
+            <input type="text" id="username" name="username" required />
+            <label for="username">Username</label>
+          </div>
+          <div class="input-group">
+            <input type="password" id="password" name="password" required />
+            <label for="password">Password</label>
+          </div>
+          <button type="submit" onclick="window.location.href='home.html'">
+            Login
+          </button>
+          <div class="bottom-text">
+            <p class="signup-link">
+              Don't have an account? <a href="signup.html">Sign up here</a>
+            </p>
+            <p class="forgot-password">
+              <a href="forgot-password.html">Forgot password?</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
